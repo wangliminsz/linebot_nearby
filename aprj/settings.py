@@ -48,7 +48,7 @@ LINE_CHANNEL_SECRET = 'fc7e2f39e960760f4036f9a8d3f3a304'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','127.0.0.1', '.vercel.app']
 
 
 # Application definition
