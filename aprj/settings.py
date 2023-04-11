@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-import django_heroku
+# import django_heroku
 
 import os
 from pathlib import Path
@@ -172,4 +172,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/') #加入 media 路徑
 
 #-----------------2021-09-06
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
